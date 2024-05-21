@@ -1,0 +1,15 @@
+// HACER QUE CUANDO ABRIS LA PAGINA POR PRIMERA VEZ TE MUESTRE UN preloaded image que diga welcome
+
+// HACER BACKGROUND Y GRADIENTE ESTILO NOCHE; COLOR AZUL NOCHE
+
+
+// HACER UN OVER SOBRE LA IMAGEN DEL BANNER Y CUANDO PASO EL MOUSE SE MUESTRE LA IMAGEN QUE NO ES ANIME
+
+// HACER UN OVER SOBRE LOS TRABAJOS PRACTICOS QUE SE DESPLIEGUE UNA CARTA MOSTRANDO QUE HICE EN CADA TRABAJO
+
+
+for this proyect, im using react-scroll to make a smoth scroll ober all my page
+
+import { Link } from 'react-scroll';
+
+la propiedad offset={50}  me enfoca el id al que me dirijo, puedo regular su valor 

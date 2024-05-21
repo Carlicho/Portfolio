@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {  
+    font-family: "Roboto Serif", serif;
+    color: #eeeaea;
+    background: rgb(89, 93, 102);
+    background: linear-gradient(47deg, rgb(19,20,21)  5%, rgb(24, 25, 26) 85%, rgb(39, 41, 43) 100%);
+    
+}
+
+
+
+
+
