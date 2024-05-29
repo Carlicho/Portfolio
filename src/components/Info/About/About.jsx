@@ -28,12 +28,12 @@ export default function About() {
 }
  
 const Container = styled.div`
-    margin: 8rem 0 0 0;
+    margin: 0 ;
     width: 80%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
-    align-items: start;
+    align-items: center;
 
     @media screen and (max-width: 1600px) {
         flex-direction: column;
@@ -41,11 +41,26 @@ const Container = styled.div`
         justify-content: center;
         
   }
+
+  @media screen and (max-width: 800px) {
+    margin: 0;
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+    padding:  2rem 0;
+
+        
+  }
 `
 
 const AboutH1 = styled.h1`
-   font-size: 1.2em;
+width: 70%;
+text-align: center;
+  padding-bottom:1rem;
+  border-bottom: 2px solid grey;
+   font-size: 1.1rem;
     letter-spacing: .125rem;
+    margin: 0 0 3.125rem 0;
 
     @media screen and (max-width: 1600px) {
         font-size: 2rem;
@@ -55,29 +70,60 @@ const AboutH1 = styled.h1`
 `
 
 const TextColumn = styled.div`
-    font-size: 1.2em;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    font-size: 1.1rem;
     letter-spacing: .125rem;
-    width: 50rem;
+    width: 80%;
     line-height: 2rem;
 
     @media screen and (max-width: 1600px) {
         font-size: 1.8rem;
   }
+
+  @media screen and (max-width: 800px) {
+        font-size: 1rem;
+        width: 80%;
+  }
 `
 const Text1 = styled.p`
-    font-size: 1.2em;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: start;
+text-align: start;
+    font-size: 1.1rem;
     width: 50rem;
     margin: 0 0 1.25rem 0;
 
     @media screen and (max-width: 1600px) {
         font-size: 1.8rem;
   }
+
+  @media screen and (max-width: 800px) {
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+  }
 `
 const Text2 = styled.p`
-    font-size: 1.2em;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: start;
+text-align: start;
+    font-size: 1.1rem;
     width: 50rem;
 
     @media screen and (max-width: 1600px) {
         font-size: 1.8rem;
+  }
+
+  @media screen and (max-width: 800px) {
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
   }
 `

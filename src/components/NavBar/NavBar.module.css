@@ -1,10 +1,9 @@
 .navcontainer{
     display: flex;
-    flex-flow: row wrap;   /* no es necesario poner flex direction con flex-flow */
     position: fixed;
-    z-index: 1000;
     top: 0;
-    right: 0;
+    z-index: 1000;
+    flex-flow: row ;
     justify-content: space-around;
     align-items: center;
     margin: 0 0 1rem  0 ;
@@ -18,11 +17,7 @@
     font-size: 1.2rem;
 }
 
-.burguerBtn {
-    display: none;
-    left: 0;
-    margin-right: 4rem;
-}
+
 .navlogo{
     margin-left:1rem ;
     font-size: 1.1rem;
@@ -37,9 +32,10 @@
 
 .link{
     margin-right:8rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     letter-spacing: .075rem;
     cursor: pointer;
+    width: 80%;
 
 }
 
@@ -128,57 +124,57 @@
 
 .socialNetworks{
     display: flex;
+    margin: 0 20px;
 }
 
 @media screen and (max-width: 1600px) {
 
-    .navcontainer{
-        padding: 1rem;
+    
+
+    .navlogo{
+        display: none;
     }
+
     .socialNetworks{
         display: none;
     }
 
-    .links{
-        width: 100%;
-        display: none;
-        flex-flow: column nowrap;
-        justify-content: center;
-        align-items: center;
-    }
 
-    .links.isActive{
-        position: absolute;
-       
-        top: 50;
-        left: 0;
-        display: flex;
-        flex-direction: column;
-        height: 200px;
-        justify-content: center;
-        align-items: start;
-        margin: 2rem 0rem;
-    }
+
+
+}
+
+@media screen and (max-width: 1100px) {
+
+
+
+
+.ConnectBtn{
+    display: none;
+}
+
+}
+  
+
+  @media screen and (max-width: 750px) {
+
 
     .link{
-        display: flex;
-        justify-content: start;
-        padding: 0;
-        width: 20rem;
-        margin: 0.5rem 0;
-        font-size: 1.8rem;
-        letter-spacing: 0.5em;
-        cursor: pointer;
-        background-color: none;
-        margin-left: 4rem;
-        text-align: start;
-        cursor: pointer;
-    
+        margin-right:2rem;
     }
 
-    .burguerBtn{
-        display: flex;
+    .navcontainer{
         background:none;
-        cursor: pointer;
+        width: 80%;
     }
-}
+
+ 
+
+
+  }
+
+  
+  
+
+  
+  

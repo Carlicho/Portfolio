@@ -11,10 +11,7 @@ body {
     color: #eeeaea;
     background: rgb(89, 93, 102);
     background: linear-gradient(47deg, rgb(19,20,21)  5%, rgb(24, 25, 26) 85%, rgb(39, 41, 43) 100%);
-    
+    align-self: center;
 }
-
-
-
 
 

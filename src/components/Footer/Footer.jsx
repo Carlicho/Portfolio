@@ -1,6 +1,7 @@
 
 import './Footer.css'
-import SimpleForm from './SimpleForm';
+import Email from './Email';
+
 
 const ContactForm = () => {
 
@@ -9,14 +10,14 @@ const ContactForm = () => {
     <div className="footer-content">
       <div className="footer-section">
         <h3>Contacto</h3>
-        <ul>
-          <div>
+        <ul >
+          <div className='footer1'>
 
           <li><strong>Email:</strong> carlosjlicho@gmail.com</li>
           <li><strong>telefono:</strong> +54 9 1157993571</li>
           </div>
-          <div>
-
+          
+          <div className='footer2'>
           <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/carlos-lichowski/">Carlos Lichowski</a></li>
           <li><strong>Instagram:</strong> <a href="https://www.instagram.com/">Carlos Lichowski</a></li>  
           </div>
@@ -26,7 +27,7 @@ const ContactForm = () => {
       </div>
     </div>
 
-    <SimpleForm/>
+    <Email/>
   </footer>
   );
 };
@@ -34,41 +35,3 @@ const ContactForm = () => {
 export default ContactForm;
 
 
-/* 
- <h2>Contact Form</h2>
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            value={formData.name}
-            onChange={handleChange}
-            required
-          />
-        </div>
-        <div>
-          <label htmlFor="email">Email:</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-            required
-          />
-        </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea
-            id="message"
-            name="message"
-            value={formData.message}
-            onChange={handleChange}
-            required
-          ></textarea>
-        </div>
-        <button type="submit">Submit</button>
-      </form>
-*/

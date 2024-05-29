@@ -61,12 +61,12 @@
     flex-direction: column;
     padding: 20px 5px;
     text-align: center;
-    font-size: 1.375rem;
+    font-size: 1.1rem;
     transition: height 0.5s;
 }
 
 .overlay h3{
-    font-size: 1.375rem;
+    font-size: 1.1rem;
     font-weight: 300px;
     margin-bottom: 5px;
     margin-top: 50%;

@@ -1,9 +1,9 @@
 import styled from "styled-components"
 
-import Rickandmorty from '../../assets/img/MyWork/rickandmorty CleanImage.png'
+import Rickandmorty from '../../assets/img/MyWork/rickandmorty.png'
 import Innova from '../../assets/img/MyWork/Innova.png'
-import Spotify from '../../assets/img/MyWork/Spotify CleanImage.png'
-import NotificationsApi from '../../assets/img/MyWork/NotificationsApi CleanImage.png'
+import Spotify from '../../assets/img/MyWork/spotify.png'
+import codigochef from '../../assets/img/MyWork/codigochef.png'
 
 
 export default function MyWorks() {
@@ -20,7 +20,13 @@ export default function MyWorks() {
       <WorkDescription>
       <Descriptionh2>Innova</Descriptionh2>
 
-      <DescriptionP>Team Proyect Made of part as a Full Stack M.E.R.N. bootcamp on SoyHenry</DescriptionP>
+      <Description>
+      
+          <li>E-commerce</li>
+          <li>M.E.R.N</li>
+          <li>Team Proyect</li>
+        
+      </Description>
 
       <a href="https://github.com/Carlicho/Innova-Render" target="new_blank">
           <RepositoryBtn>Repository</RepositoryBtn>
@@ -40,7 +46,13 @@ export default function MyWorks() {
 <WorkDescription>
     <Descriptionh2>Spotify Clone</Descriptionh2>
 
-    <DescriptionP>Clone of spotify using Spotify Api</DescriptionP>
+    <Description>
+      
+      <li>ReactJs</li>
+      <li>Spotify Api</li>
+      
+    
+  </Description>
 
     <a href="https://github.com/Carlicho/SpotifyClone2" target="new_blank">
           <RepositoryBtn>Repository</RepositoryBtn>
@@ -58,7 +70,13 @@ export default function MyWorks() {
 <WorkDescription>
       <Descriptionh2>RickandMorty Api</Descriptionh2>
 
-      <DescriptionP>Team Proyect Made of part as a Full Stack M.E.R.N. bootcamp on SoyHenry</DescriptionP>
+      <Description>
+      
+          <li>M.E.R.N</li>
+          
+          
+        
+      </Description>
 
       <a href="https://github.com/Carlicho/RickandMorty" target="new_blank">
           <RepositoryBtn>Repository</RepositoryBtn>
@@ -70,15 +88,21 @@ export default function MyWorks() {
 
 <WorksContainer>
 
-<Workimage src={NotificationsApi} alt="Rickandmorty" />                   
+<Workimage src={codigochef} alt="Restaurant web" />                   
 
 <WorkDescription>
-      <Descriptionh2>Notifation Api</Descriptionh2>
+      <Descriptionh2>CodigoChef</Descriptionh2>
 
-      <DescriptionP>Api that allow you administrate your notifications</DescriptionP>
+      <Description>
+      
+          <li>Restaurant</li>
+          <li>ReactJs</li>
+          <li>Freelance</li>
+        
+      </Description>
 
-      <a href="https://gitlab.com/lichos-ideas/notifications-service" target="new_blank">
-          <RepositoryBtn>Repository</RepositoryBtn>
+      <a href="https://codigochef.netlify.app/" target="new_blank">
+          <RepositoryBtn>Visite Page</RepositoryBtn>
           
       </a>
       </WorkDescription>
@@ -93,7 +117,7 @@ export default function MyWorks() {
 }
 
 const Container = styled.div`
-width: 100%;
+width: 80%;
 height: auto;
 display: flex;
 justify-content: center;
@@ -114,7 +138,7 @@ justify-content: center;
 align-items: center;
  user-select:none;
   max-width: 18.75rem;
-  margin: 12rem 2rem;
+  margin: 9rem 2rem;
   border: 1px solid #ffffff22;
   background-color: #282c34;
   background: linear-gradient(0deg, rgba(40,44,52,1) 0%, rgba(17,0,32,.5) 100%);
@@ -153,7 +177,7 @@ min-height: 19rem;
 const Descriptionh2 = styled.h2`
   display: flex;
   padding: 0 1.25em;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -164,14 +188,16 @@ const Descriptionh2 = styled.h2`
 `
 
 
-const DescriptionP = styled.p`
+const Description = styled.ul`
   display: flex;
+  flex-direction: column;
   padding: 20px;
   margin-top: 1rem;
   margin-bottom: 3rem;
   justify-content: center;
   align-items: center;
   text-align: center;
+  list-style: none;
 `
 
 const Workimage = styled.img`
@@ -179,13 +205,14 @@ const Workimage = styled.img`
       max-width: fit-content;
       height: 13rem;
       object-fit: cover;
+      padding: 1.25rem;
 `
 
 
 
 const RepositoryBtn = styled.button`
 color:#fff;
-font-size:1rem;
+font-size: 1.1rem;
 -webkit-box-shadow: 0.5px 0.5px 23px 6px #1512d1bc;
     -moz-box-shadow: 0.5px 0.5px 23px 6px #1f12d1bc;
     box-shadow: 0.5px 0.5px 23px 6px #2512d1bc;
@@ -193,15 +220,12 @@ font-size:1rem;
 
 border:1px solid  #31223d;
 border-radius: 20px;
-margin:1.3rem ;
-padding:0.2rem;
+margin:1.3rem  0 2rem 0;
+padding:0.5rem;
    background: #360327;
     background-image: -webkit-linear-gradient(top, #360327, #331ed0);
     background-image: -moz-linear-gradient(top, #360327, #1e1ed0);
     background-image: -ms-linear-gradient(top, #360327, #1e1ed0);
     background-image: -o-linear-gradient(top, #360327, #1e2ad0);
     background-image: -webkit-gradient(to bottom, #360327, #1e24d0);
-    
-    
-
 `

@@ -43,15 +43,25 @@ user-select: none;
      width: 90%;
      margin-top: 3rem;
   }
+
+  @media screen and (max-width: 800px) {
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     width: 100%;
+     margin: 10rem 0;
+     font-size: 1.2rem;
+  }
 `
 
 const BannerCardText = styled.div`
     margin-top: 9rem;
     letter-spacing: .0813rem;
     text-shadow:  .125rem .1875rem #000 ;
-
-    @media screen and (max-width: 1600px) {
-      margin-bottom: 4rem;
+    margin-bottom: 4rem;
+    @media screen and (max-width: 800px) {
+     margin: 0;
+     
       
   }
 
@@ -62,10 +72,12 @@ const BannerCardText = styled.div`
 const BannerDescription = styled.div`
     letter-spacing: .1875rem;
     line-height: 3.125rem;
-    font-size: 1.2em;
+    font-size: 1.1rem;
 
-    @media screen and (max-width: 1600px) {
-      font-size: 1.8rem;
+    @media screen and (max-width: 800px) {
+      font-size: 1rem;
+      letter-spacing: 0.02rem;
+    
       
   }
 `
@@ -77,7 +89,7 @@ const Bannerimg = styled.img `
   display:flex;
   flex-direction: column;
   
-  filter:drop-shadow(0.3em 0.2em 0.01em #2512d126);
+  filter:drop-shadow(0.3em 0.2em 0.01em #2512d111);
   
   
 
@@ -85,6 +97,12 @@ const Bannerimg = styled.img `
   @media screen and (max-width: 1600px) {
      width: 20rem ;
      margin-left: 0;
+  }
+
+  
+  @media screen and (max-width: 800px) {
+     width: 10rem ;
+     margin: 0;
   }
 `
 
@@ -124,6 +142,18 @@ const HireBtn = styled.button`
     display: inline-block;
     cursor: pointer;
     text-align: center;
+
+    
+  @media screen and (max-width: 800px) {
+    margin: 0;
+    height: 1.5rem;
+    color: #FFFFFF;
+    width: 5.5rem;
+    letter-spacing: 1.2px;
+    font-size: 1em;
+    font-weight: 100;
+    padding: 0;
+  }
 `
 
 const BannerImgContainer = styled.div`

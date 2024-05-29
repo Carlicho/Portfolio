@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: center;
     min-height: 100%;
+    min-width: 100%;
     width: 100%;
     height: 100%;
     background: rgb(89, 93, 102);
@@ -13,14 +14,16 @@
     padding: 0 9.375rem 9.375rem 9.375rem;
 }
 
-.aguila{
-  position: fixed;
-  right: 10vw;
-  top:23vh;
-  width: 15rem;
-  filter:blur(1px);
-  filter:brightness(60%);
-  transition: 'transform 4s ease-out'
+
+
+
+@media screen and (max-width: 900px) {
+
+  .AppContainer{
+    padding: 0;
+    margin: 0;
+  }
+
 }
 
 
