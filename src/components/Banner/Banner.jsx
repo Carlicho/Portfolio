@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import fotoperfilreal from '../../assets/png/perfilMejorado3.png'
-
+import { Link } from 'react-scroll';
 
 export default function Banner() {
   return (
@@ -10,7 +10,9 @@ export default function Banner() {
                 <h1>Carlos Lichowski </h1>
                 <h2>Web Developer</h2>
                 FullStack ReactJs NodeJs</BannerDescription>
+                <Link to='footer'>
                 <HireBtn >Hire Me</HireBtn>
+                </Link>
     </BannerCardText>
 
   <BannerImgContainer>

@@ -14,7 +14,7 @@ const ContactForm = () => {
           <div className='footer1'>
 
           <li><strong>Email:</strong> carlosjlicho@gmail.com</li>
-          <li><strong>telefono:</strong> +54 9 1157993571</li>
+          <li><strong>phone:</strong> +54 9 1157993571</li>
           </div>
           
           <div className='footer2'>

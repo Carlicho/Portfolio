@@ -11,14 +11,13 @@ export default function About() {
 
         <TextColumn>
             <Text1>
-            As a developer, i strive to deliver to create beautiful, performance websites
-            from stunning desing. I enjoy creating extremely visual and interactive experiences
-            using any technology that will deliver the best rest.
+            As a developer, I strive create beautiful websites with stunning design and great performance. I enjoy creating extremely visual and interactive experiences using any technology that will deliver the best results.
+
             </Text1>
 
             <Text2>
-            With the background of working almost 10 years in a hospital, I have develop a great
-            my soft skills by working in team and having an Active listening actitud. 
+            Having a background of 10 years experience in a hospital, I also developed my soft skills.
+             I consider myself a proactive listener and a good team worker.
             </Text2>
 
         </TextColumn>
